@@ -4,6 +4,17 @@
 
 Healthcare fraud represents a significant and ongoing challenge, leading to billions of dollars in losses annually and diverting resources from legitimate patient care. This project provides a comprehensive, data-driven solution for detecting and preventing fraudulent healthcare claims using machine learning and real-time analytics.
 
+The dataset has been fetched from kaggle's healthcare fraud detection analysis dataset
+##The data model is comprised of the following four tables:
+
+beneficiary_data – Stores comprehensive patient information, including demographics and health conditions.
+
+inpatient_data – Captures details of hospital admissions and associated provider information.
+
+outpatient_data – Records information related to outpatient visits and the corresponding healthcare providers.
+
+fraudulent_provider – Serves as a reference to label and identify whether a provider is involved in fraudulent activities.
+
 ## Key Highlights
 
 - ⚕️ **Problem Addressed**: Detection of fraudulent claims by healthcare providers, improving the integrity of healthcare systems.
@@ -38,7 +49,9 @@ Healthcare fraud represents a significant and ongoing challenge, leading to bill
 - **AWS S3** (cloud storage)
 - **Power BI** (dashboard and prediction visualization)
 - **Jupyter Notebook** (for model development and analysis)
-- **pickle** (for model serialization)
+- **EC2** (for connection)
+- **matplotlib** (Data Visualization)
+-**scikit-learn** (Machine learning models)
 
 
 
