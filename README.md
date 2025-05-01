@@ -1,0 +1,45 @@
+# Healthcare Fraud Detection System
+
+## Overview
+
+Healthcare fraud represents a significant and ongoing challenge, leading to billions of dollars in losses annually and diverting resources from legitimate patient care. This project provides a comprehensive, data-driven solution for detecting and preventing fraudulent healthcare claims using machine learning and real-time analytics.
+
+## Key Highlights
+
+- ⚕️ **Problem Addressed**: Detection of fraudulent claims by healthcare providers, improving the integrity of healthcare systems.
+
+- 🧠 **Machine Learning-Based Detection**: 
+  - Advanced machine learning models are developed using **Python** and **Scikit-learn**.
+  - These models are trained to recognize patterns and anomalies indicative of fraud.
+
+- 🗃️ **Database Management**:
+  - A **PostgreSQL** database is deployed on **AWS EC2** for reliable and efficient data storage and querying.
+  - Structured data from multiple sources (inpatient, outpatient, beneficiary details) is ingested and merged for analysis.
+
+- ☁️ **Scalable Storage**:
+  - **AWS S3** is used for storing raw and processed data files securely and at scale.
+
+- 📊 **Visualization and Reporting**:
+  - **Power BI** dashboards provide interactive, real-time visualizations of prediction results.
+  - Stakeholders can monitor trends, review flagged providers, and gain insights into healthcare claim patterns.
+
+- 🧹 **ETL Pipeline**:
+  - Custom Python scripts perform extract, transform, and load (ETL) operations on the healthcare datasets.
+  - Data is preprocessed, cleaned, and features are engineered to support model training.
+
+- 🔐 **Goal**:
+  - Enhance fraud detection capabilities.
+  - Support proactive intervention and policy decisions with accurate and explainable results.
+
+## Technologies Used
+
+- **Python** (pandas, scikit-learn, matplotlib, seaborn)
+- **PostgreSQL** (hosted on AWS EC2)
+- **AWS S3** (cloud storage)
+- **Power BI** (dashboard and prediction visualization)
+- **Jupyter Notebook** (for model development and analysis)
+- **pickle** (for model serialization)
+
+
+
+
